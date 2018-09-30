@@ -19,4 +19,5 @@ from . import views
 urlpatterns = [
     url(r'^$|^index', views.index, name='index'),
     url(r'^download', views.download, name='download'),
+    url(r'^header/$', views.header, name='header'),
 ]
